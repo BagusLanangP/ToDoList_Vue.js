@@ -1,0 +1,75 @@
+body{
+    background: linear-gradient(45deg, #d2001a, #7462ff );
+    background-size: 400% 400%; /* Menentukan ukuran background */
+    animation: color 12s ease-in-out infinite;
+}
+#app{
+    background-color: rgba(
+    255,
+    255,
+    255,
+    80%
+    ); 
+    backdrop-filter: blur(1000px);
+}
+.bordered{
+    border: solid 1px #ddd;
+}
+.componenpadding{
+    margin-left: 12rem;
+    margin-right: 12rem;
+    margin-top: 5rem;
+}
+.content-padding{
+    padding-left: 8rem;
+    padding-right: 8rem;
+}
+.isi-content{
+    background-color: #fff;
+    color: #ddd;
+}
+.border-bt{
+   border-bottom : solid 1px #ddd;
+}
+.doneText{
+    text-decoration: line-through;
+    color: red;
+}
+.calendar{
+    background-color: white;
+}
+.profilDisplay{
+    background-color: white;
+    color: #d2001a;
+}
+
+.importantTask {
+    font-weight: bold;
+}
+
+
+.quotes{
+    background-color: #fff;
+}
+
+.quotes-content{
+    font-size: 14px;
+}
+
+.author{
+    font-size: 10px;
+}
+
+
+@keyframes color {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
+
